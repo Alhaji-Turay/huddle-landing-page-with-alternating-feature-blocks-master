@@ -1,0 +1,90 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+
+
+.header-container {
+    padding-top: 3.4375em;
+    padding-left: 4.875em;
+    padding-right: 4.875em;
+}
+
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.main-logo {
+    margin-right: auto;
+}
+
+.main-logo img {
+    width: 12em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.btn-top {
+    margin-left: auto;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-bottom: .35em;
+    padding: .6em 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.header-comtent {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 11.25em;
+}
+
+.main-title {
+    font-size: 2.5em;
+}
+
+
+.header-comtent .about-huddle {
+    width: 31.875em;
+    line-height: 1.6;
+}
+
+.header-col {
+    flex: 50%;
+}
+
+
+.header-col img {
+    width: 42.1875em;
+}
+
+
+.header-btn .button {
+    padding: 1.25em  4.2em ;
+    background-color: #fe52c0;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+section {
+    height: 80vh;
+    background-color: lightskyblue;
+}
